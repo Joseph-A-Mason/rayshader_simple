@@ -1,0 +1,1 @@
+install.packages(c("terra", "hillshader", "rayshader", "rayrender", "sharpshootR", "dendextend", "lattice", "maps"))
