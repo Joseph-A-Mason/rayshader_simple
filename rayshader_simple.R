@@ -3,8 +3,6 @@ library(hillshader)
 library(rayshader)
 library(rayrender)
 
-setwd("C:/Users/mason/Dropbox/aeolian_landscapes/GIS_working/temp")
-
 #Import data from DEM to rayshader, creating a matrix
 localtif = rast("dem.tif")
 local_mat = terra::as.matrix(localtif, wide=TRUE)
