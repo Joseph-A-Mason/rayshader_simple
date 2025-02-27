@@ -2,6 +2,7 @@ library(terra)
 library(hillshader)
 library(rayshader)
 library(rayrender)
+library(magick)
 
 #Import data from DEM to rayshader, creating a matrix
 localtif = rast("dem.tif")
