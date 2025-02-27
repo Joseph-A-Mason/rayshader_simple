@@ -4,3 +4,4 @@ libproj-dev
 libgdal-dev
 libgl-dev
 libglu1-mesa
+libmagick++-dev
